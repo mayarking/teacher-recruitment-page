@@ -192,6 +192,7 @@ h3{
     text-align: center;
     border-radius: 10px;
     box-shadow: 1px 3px 4px rgb(103, 103, 103);
+    font-size: 1.5rem;
 }
 
 .research-paragraphs{
@@ -204,9 +205,12 @@ h3{
 .research-paragraphs > p{
     background-color: white;
     width: 80%;
-    padding: 1rem;
+    padding: 1.3rem;
     border-radius: 10px;
     box-shadow: 1px 3px 4px rgb(103, 103, 103);
+    font-size: 1.2rem;
+    line-height: 2rem;
+    text-align: center;
 }
 
 .sources > h3{
@@ -227,4 +231,36 @@ ul{
 }
 li > a{
     text-decoration: underline;
+}
+
+/*FEEDBACK*/
+.feedback-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background-color: white;
+    box-shadow: 1px 3px 4px rgb(91, 91, 91);
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    gap: 1rem;
+}
+
+.feedback-summary{
+    font-size: 1.5rem;
+}
+
+.feedback-content > a{
+    color: black;
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    gap: .5rem;
+    font-size: 1.5rem;
+}
+
+.feedback-content > a > img{
+    height: 2rem;
 }
