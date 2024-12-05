@@ -9,7 +9,7 @@ body{
 
 a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 /*HEADER*/
@@ -56,16 +56,18 @@ header > img{
 
 /*MAIN*/
 main{
-    display: flex;
     flex: 1;
     margin-top: 3rem;
     margin-bottom: 10rem;
-    flex-direction: column;
-    align-items: center;
     gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h2{
+    color: rgb(255, 255, 255);
     text-align: center;
     font-size: 3rem;
 }
@@ -110,7 +112,7 @@ footer{
 
 /*RESOURCES*/
 .resource-summary{
-    width: 50%;
+    width: 80%;
     font-size: 1.5rem;
     text-align: center;
     background-color: white;
@@ -119,3 +121,65 @@ footer{
     padding: 1rem;
 }
 
+h3{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.resources{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    gap: 5rem;
+}
+
+.resource{  
+    display: flex;
+    width: 90%;
+}
+
+.resource-right > .resource-content{
+    padding-left: 6rem;
+}
+
+.resource-left > .resource-content{
+    padding-right: 6rem;
+}
+
+.resource-left > .img-container{
+    right: 5%;
+    top: -30px;
+}
+
+.resource-content{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: white;
+    width: 50%;
+    box-shadow: 1px 3px 4px rgb(66, 66, 66);
+}
+
+.resource-content > p{
+    font-size: 1.2rem;
+}
+
+.img-container{
+    position: relative;
+    right: 1%;
+    top: -25px;
+    width: 30rem;
+    border-radius: 10px;
+}
+
+.img-container > img{
+    width: 35rem;
+    position: absolute;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 1px 3px 4px rgb(66, 66, 66);
+}
