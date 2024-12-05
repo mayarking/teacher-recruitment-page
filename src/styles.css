@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    background-color: rgb(107, 160, 234);
+    position: relative;
+    font-family: "Parkinsans", Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*HEADER*/
+header{
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    padding: 1rem;
+    display: flex;
+    gap: 3rem;
+    box-shadow: 1px 3px 4px rgb(78, 78, 78);
+}
+h1{
+    font-size: 3rem;
+}
+
+header > img{
+    height: 15rem;
+    border-radius: 10px;
+}
+
+.header-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-links{
+    display: flex;
+    gap: .8rem;
+    font-size: 1.2rem;
+}
+
+.page-links > a{
+    background-color: rgb(107, 160, 234);
+    padding: .5rem;
+    border-radius: 10px;
+    box-shadow:1px 3px 4px rgb(56, 56, 56);
+}
+
+.page-links > a:hover{
+    background-color: rgb(54, 124, 222);
+}
+
+/*MAIN*/
+main{
+    display: flex;
+    flex: 1;
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+h2{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.mission-content{
+    color: rgb(46, 46, 46);
+    text-align: center;
+    font-size: 1.5rem;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 1px 3px 4px rgb(78, 78, 78);
+}
+
+.mission-container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+
+.mission-container > img{
+    height: 18rem;
+    border-radius: 10px;
+    box-shadow: 1px 3px 4px rgb(55, 55, 55);
+}
+
+/*FOOTER*/
+footer{
+    margin-top: 4rem;
+    display: flex;
+    position:fixed;
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+    height: 3rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/*RESOURCES*/
+.resource-summary{
+    width: 50%;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: white;
+    box-shadow: 1px 3px 4px rgb(71, 71, 71);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
