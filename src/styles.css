@@ -189,6 +189,7 @@ h3{
     background-color: white;
     width: 75%;
     padding: 1rem;
+    text-align: center;
     border-radius: 10px;
     box-shadow: 1px 3px 4px rgb(103, 103, 103);
 }
@@ -206,4 +207,24 @@ h3{
     padding: 1rem;
     border-radius: 10px;
     box-shadow: 1px 3px 4px rgb(103, 103, 103);
+}
+
+.sources > h3{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.source{
+    list-style: none;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+li > a{
+    text-decoration: underline;
 }
