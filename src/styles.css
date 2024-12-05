@@ -183,3 +183,27 @@ h3{
     object-fit: cover;
     box-shadow: 1px 3px 4px rgb(66, 66, 66);
 }
+
+/*RESEARCH*/
+.research-summary{
+    background-color: white;
+    width: 75%;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 1px 3px 4px rgb(103, 103, 103);
+}
+
+.research-paragraphs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.research-paragraphs > p{
+    background-color: white;
+    width: 80%;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 1px 3px 4px rgb(103, 103, 103);
+}
