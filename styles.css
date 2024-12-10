@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     overflow-y: auto;
-    background-color: rgb(107, 160, 234);
+    background-color: rgb(117, 104, 84);
     position: relative;
     font-family: "Parkinsans", Arial, Helvetica, sans-serif;
 }
@@ -14,7 +14,7 @@ a{
 
 /*HEADER*/
 header{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(235, 228, 217);
     justify-content: center;
     align-items: center;
     padding: 1rem;
@@ -52,14 +52,14 @@ header > img{
 }
 
 .page-links > a{
-    background-color: rgb(107, 160, 234);
+    background-color: rgb(117, 104, 84);
     padding: .5rem;
     border-radius: 10px;
     box-shadow:1px 3px 4px rgb(56, 56, 56);
 }
 
 .page-links > a:hover{
-    background-color: rgb(54, 124, 222);
+    background-color: rgb(77, 69, 57);
 }
 
 /*MAIN*/
@@ -85,7 +85,7 @@ h2{
     text-align: center;
     font-size: 1.5rem;
     width: 50%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(235, 228, 217);
     border-radius: 10px;
     padding: 1rem;
     box-shadow: 1px 3px 4px rgb(78, 78, 78);
@@ -110,7 +110,7 @@ footer{
     display: flex;
     position:fixed;
     bottom: 0;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(235, 228, 217);
     height: 3rem;
     width: 100%;
     align-items: center;
@@ -123,8 +123,8 @@ footer{
     width: 80%;
     font-size: 1.5rem;
     text-align: center;
-    background-color: white;
-    box-shadow: 1px 3px 4px rgb(71, 71, 71);
+    background-color: rgb(235, 228, 217);
+    box-shadow: 1px 3px 4px rgb(121, 121, 121);
     border-radius: 10px;
     padding: 1rem;
 }
@@ -167,7 +167,7 @@ h3{
     flex-direction: column;
     padding: 2rem;
     border-radius: 10px;
-    background-color: white;
+    background-color: rgb(235, 228, 217);
     width: 50%;
     box-shadow: 1px 3px 4px rgb(66, 66, 66);
 }
@@ -194,7 +194,7 @@ h3{
 
 /*RESEARCH*/
 .research-summary{
-    background-color: white;
+    background-color: rgb(235, 228, 217);
     width: 75%;
     padding: 1rem;
     text-align: center;
@@ -211,7 +211,7 @@ h3{
 }
 
 .research-paragraphs > p{
-    background-color: white;
+    background-color: rgb(235, 228, 217);
     width: 80%;
     padding: 1.3rem;
     border-radius: 10px;
@@ -241,6 +241,17 @@ li > a{
     text-decoration: underline;
 }
 
+.research-images{
+    display: flex;
+    gap: 1rem;
+}
+
+.research-images > img{
+    height: 15rem;
+    border-radius: 15px;
+    box-shadow: 1px 3px 5px rgb(75, 75, 75);
+}
+
 /*FEEDBACK*/
 .feedback-content{
     display: flex;
@@ -248,7 +259,7 @@ li > a{
     justify-content: center;
     align-items: center;
     width: 80%;
-    background-color: white;
+    background-color: rgb(235, 228, 217);
     box-shadow: 1px 3px 4px rgb(91, 91, 91);
     padding: 1rem;
     border-radius: 10px;
